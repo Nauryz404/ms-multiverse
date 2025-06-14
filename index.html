@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MS MULTIVERSE</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="MS MULTIVERSE" id="mainLogo">
+    <h1>MS MULTIVERSE</h1>
+  </header>
+
+  <div class="button-container">
+    <button class="sound-btn" onclick="toggleSound(0)">SOUND 1</button>
+    <button class="sound-btn" onclick="toggleSound(1)">SOUND 2</button>
+    <button class="sound-btn" onclick="toggleSound(2)">SOUND 3</button>
+    <button class="sound-btn" onclick="toggleSound(3)">SOUND 4</button>
+    <button class="sound-btn" onclick="toggleSound(4)">SOUND 5</button>
+    <button class="multiverse-btn" onclick="alert('ЭТО ЕЩЁ НЕ ДОСТУПНО БРАТ СЕСТРА КТО БЫ НЕ БЫЛ ЧЕРТ ВОЗЬМИ ЭТО НЕ ДОСТУПНО')">MULTIVERSE</button>
+  </div>
+
+  <div id="overlay">
+    <img src="images/splash.jpg" alt="Reveal Image">
+  </div>
+
+  <!-- Аудио -->
+  <audio id="logoAudio" src="audio/logo.mp3"></audio>
+  <audio class="audio" src="audio/_Sunset Memories_.mp3" loop></audio>
+  <audio class="audio" src="audio/_Навсегда во мне_.mp3" loop></audio>
+  <audio class="audio" src="audio/_Ты сломал, но не убил_.mp3" loop></audio>
+  <audio class="audio" src="audio/_Это мой момент_.mp3" loop></audio>
+  <audio class="audio" src="audio/Digital Shadows.mp3" loop></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
